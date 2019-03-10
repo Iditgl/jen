@@ -1,5 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
+  <actions/>
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties/>
@@ -12,7 +13,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>curl -X POST --data-urlencode &quot;payload={\&quot;channel\&quot;: \&quot;#idit_\&quot;, \&quot;username\&quot;: \&quot;webhookbot\&quot;, \&quot;text\&quot;: \&quot;This is posted to #idit_ and comes from a bot named webhookbot.\&quot;, \&quot;icon_emoji\&quot;: \&quot;:ghost:\&quot;}&quot; https://hooks.slack.com/services/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</command>
+      <command>curl -X POST --data-urlencode &quot;payload={\&quot;channel\&quot;: \&quot;#idit_\&quot;, \&quot;username\&quot;: \&quot;iditbot\&quot;, \&quot;text\&quot;: \&quot;stop messing around and go study!.\&quot;, \&quot;icon_emoji\&quot;: \&quot;:ghost:\&quot;}&quot; https://hooks.slack.com/services/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</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
