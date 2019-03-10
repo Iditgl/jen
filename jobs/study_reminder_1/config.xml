@@ -13,7 +13,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>curl -X POST --data-urlencode &quot;payload={\&quot;channel\&quot;: \&quot;#idit_\&quot;, \&quot;username\&quot;: \&quot;iditbot\&quot;, \&quot;text\&quot;: \&quot;stop messing around and go study!.\&quot;, \&quot;icon_emoji\&quot;: \&quot;:cool:\&quot;}&quot; https://hooks.slack.com/services/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</command>
+      <command>curl -X POST --data-urlencode &quot;payload={\&quot;channel\&quot;: \&quot;#idit_\&quot;, \&quot;username\&quot;: \&quot;iditbot\&quot;, \&quot;text\&quot;: \&quot;stop messing around and go study!.\&quot;, \&quot;icon_emoji\&quot;: \&quot;:blob-sunglasses:\&quot;}&quot; https://hooks.slack.com/services/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</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
