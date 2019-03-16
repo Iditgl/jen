@@ -1,7 +1,10 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
+  <description></description>
   <keepDependencies>false</keepDependencies>
-  <properties/>
+  <properties>
+    <com.synopsys.arc.jenkinsci.plugins.jobrestrictions.jobs.JobRestrictionProperty plugin="job-restrictions@0.8"/>
+  </properties>
   <scm class="hudson.scm.NullSCM"/>
   <canRoam>true</canRoam>
   <disabled>false</disabled>
@@ -9,7 +12,11 @@
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
-  <builders/>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>echo &apos;stop fooling around and go study&apos;</command>
+    </hudson.tasks.Shell>
+  </builders>
   <publishers/>
   <buildWrappers/>
 </project>
