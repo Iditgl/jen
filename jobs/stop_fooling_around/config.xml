@@ -1,5 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
+  <actions/>
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties>
@@ -14,7 +15,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo &apos;stop fooling around and go study&apos;</command>
+      <command>echo &quot;stop fooling around and go study&quot;</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
