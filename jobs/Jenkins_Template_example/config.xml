@@ -29,7 +29,7 @@
   </builders>
   <publishers>
     <hudson.plugins.templateproject.ProxyPublisher plugin="template-project@1.5.2">
-      <projectName>stop_fooling_around</projectName>
+      <projectName>study_reminder</projectName>
     </hudson.plugins.templateproject.ProxyPublisher>
   </publishers>
   <buildWrappers/>
