@@ -1,5 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
+  <actions/>
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties>
@@ -12,7 +13,11 @@
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
-  <builders/>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>curl -X POST --data-urlencode &quot;payload={\&quot;channel\&quot;: \&quot;#idit_\&quot;, \&quot;username\&quot;: \&quot;iditbot\&quot;, \&quot;text\&quot;: \&quot;unit tests completed successfully! triggering intergration tests\&quot;, \&quot;icon_emoji\&quot;: \&quot;:stuck_out_tongue_closed_eyes:\&quot;}&quot; https://hooks.slack.com/services/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</command>
+    </hudson.tasks.Shell>
+  </builders>
   <publishers/>
   <buildWrappers/>
 </project>
